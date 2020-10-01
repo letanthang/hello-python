@@ -1,5 +1,6 @@
 import sys
-print("helo python world!")
+import os
+print("Hello Python World!")
 if sys.argv[1] == 'yes':
     print("you said yes")
 elif sys.argv[1] == 'no':
@@ -32,6 +33,12 @@ print("The one name %s at the age %i has the money of %f" %
 
 for key in dic:
     print("%s->%s" % (key, dic[key]))
+    
+# Proper simplification    
+print(dic)
+    
+    
+
 
 for key, value in dic.items():
     print("%s->%s" % (key, value))
